@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+<rect width="960" height="600" fill="white"/>
+<g font-family="Consolas, monospace" font-size="16" fill="#162838">
+<rect x="280" y="20" width="400" height="230" fill="white" stroke="black" stroke-width="2"/>
+<rect x="280" y="20" width="400" height="40" fill="#0075cc"/>
+<text x="480" y="47" text-anchor="middle" fill="white" font-size="20">Computer</text>
+<text x="295" y="83"># name: char[30]</text><text x="295" y="106"># price: double</text>
+<path d="M280 120H680" stroke="black"/>
+<text x="295" y="145">+ Computer()</text>
+<text x="295" y="168">+ getPrice(): double</text>
+<text x="295" y="191">+ setName(n): void</text>
+<text x="295" y="214">+ setPrice(p): void</text>
+<text x="295" y="237">+ virtual show(): void</text>
+<rect x="20" y="355" width="430" height="170" fill="white" stroke="black" stroke-width="2"/>
+<rect x="20" y="355" width="430" height="40" fill="#0075cc"/>
+<text x="235" y="382" text-anchor="middle" fill="white" font-size="20">DesktopComputer</text>
+<text x="35" y="420">- formFactor: char[30]</text>
+<path d="M20 435H450" stroke="black"/>
+<text x="35" y="460">+ DesktopComputer(n, p, f)</text>
+<text x="35" y="483">+ setFormFactor(f): void</text>
+<text x="35" y="506">+ show(): void {override}</text>
+<rect x="510" y="355" width="430" height="170" fill="white" stroke="black" stroke-width="2"/>
+<rect x="510" y="355" width="430" height="40" fill="#0075cc"/>
+<text x="725" y="382" text-anchor="middle" fill="white" font-size="20">Laptop</text>
+<text x="525" y="420">- batteryHours: int</text>
+<path d="M510 435H940" stroke="black"/>
+<text x="525" y="460">+ Laptop(n, p, h)</text>
+<text x="525" y="483">+ setBatteryHours(h): void</text>
+<text x="525" y="506">+ show(): void {override}</text>
+<path d="M235 355V305H480V268 M725 355V305H480" fill="none" stroke="black" stroke-width="2"/>
+<path d="M480 250L469 268L491 268Z" fill="white" stroke="black" stroke-width="2"/>
+<text x="305" y="335">public</text><text x="655" y="335">public</text>
+<text x="480" y="570" text-anchor="middle">+ public; # protected; - private</text>
+</g></svg>

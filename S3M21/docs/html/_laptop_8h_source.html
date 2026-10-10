@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.17.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>S3M21. Вариант 26: Исходный файл include/Laptop.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="codefolding.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+mermaid.initialize({ startOnLoad: true, theme: theme });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">S3M21. Вариант 26
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.17.0 -->
+<script type="text/javascript">
+let searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', codefold.init);
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', () => {
+  initMenu('',true);
+  init_search();
+});
+</script>
+<div id="main-nav-mobile">
+<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
+<span id="searchBoxPos1" style="position:absolute;right:8px;top:8px;height:36px;"></span>
+</div>
+</div><!-- main-nav-mobile -->
+<div id="main-nav">
+  <ul class="sm sm-dox" id="main-menu">
+    <li id="searchBoxPos2" style="float:right">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+    </li>
+  </ul>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',() => { initNavTree('_laptop_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Laptop.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_laptop_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef LAPTOP_H</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#define LAPTOP_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="_computer_8h.html">Computer.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_laptop.html">   14</a></span><span class="keyword">class </span><a class="code hl_function" href="class_laptop.html#ae5050b9db9ad1fda656e024dd76c4b41">Laptop</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_computer.html#a52056dfe9041f024ac58c1eaf02945d3">Computer</a> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_function" href="class_laptop.html#ae5050b9db9ad1fda656e024dd76c4b41">Laptop</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* n, <span class="keywordtype">double</span> p, <span class="keywordtype">int</span> h);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_laptop.html#a3a4224bab3e8f0a8f1ecf0116f2b4939">setBatteryHours</a>(<span class="keywordtype">int</span> h);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_laptop.html#aaa9c6ba979994008981068452554b72f">show</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_laptop.html#a62fb5b337f8a495f04242e43e62ae2a1">   34</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_laptop.html#a62fb5b337f8a495f04242e43e62ae2a1">batteryHours</a>; </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
+</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_computer_8h_html"><div class="ttname"><a href="_computer_8h.html">Computer.h</a></div><div class="ttdoc">Объявление базового класса Computer.</div></div>
+<div class="ttc" id="aclass_computer_html_a52056dfe9041f024ac58c1eaf02945d3"><div class="ttname"><a href="class_computer.html#a52056dfe9041f024ac58c1eaf02945d3">Computer::Computer</a></div><div class="ttdeci">Computer()</div><div class="ttdoc">Создаёт компьютер с названием Noname и нулевой ценой.</div><div class="ttdef"><b>Определения</b> <a href="_computer_8cpp_source.html#l00011">Computer.cpp:11</a></div></div>
+<div class="ttc" id="aclass_laptop_html_a3a4224bab3e8f0a8f1ecf0116f2b4939"><div class="ttname"><a href="class_laptop.html#a3a4224bab3e8f0a8f1ecf0116f2b4939">Laptop::setBatteryHours</a></div><div class="ttdeci">void setBatteryHours(int h)</div><div class="ttdoc">Изменяет собственное свойство — время автономной работы.</div><div class="ttdef"><b>Определения</b> <a href="_laptop_8cpp_source.html#l00017">Laptop.cpp:17</a></div></div>
+<div class="ttc" id="aclass_laptop_html_a62fb5b337f8a495f04242e43e62ae2a1"><div class="ttname"><a href="class_laptop.html#a62fb5b337f8a495f04242e43e62ae2a1">Laptop::batteryHours</a></div><div class="ttdeci">int batteryHours</div><div class="ttdef"><b>Определения</b> <a href="#l00034">Laptop.h:34</a></div></div>
+<div class="ttc" id="aclass_laptop_html_aaa9c6ba979994008981068452554b72f"><div class="ttname"><a href="class_laptop.html#aaa9c6ba979994008981068452554b72f">Laptop::show</a></div><div class="ttdeci">void show() override</div><div class="ttdoc">Выводит название, цену и автономность ноутбука.</div><div class="ttdef"><b>Определения</b> <a href="_laptop_8cpp_source.html#l00021">Laptop.cpp:21</a></div></div>
+<div class="ttc" id="aclass_laptop_html_ae5050b9db9ad1fda656e024dd76c4b41"><div class="ttname"><a href="class_laptop.html#ae5050b9db9ad1fda656e024dd76c4b41">Laptop::Laptop</a></div><div class="ttdeci">Laptop(const char *n, double p, int h)</div><div class="ttdoc">Создаёт ноутбук.</div><div class="ttdef"><b>Определения</b> <a href="_laptop_8cpp_source.html#l00011">Laptop.cpp:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>include</b></li><li class="navelem"><a href="_laptop_8h.html">Laptop.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
+  </ul>
+</div>
+</body>
+</html>
